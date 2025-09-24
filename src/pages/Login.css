@@ -1,0 +1,60 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.login-form {
+  background: white;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-form button {
+  width: 100%;
+}
+.toggle-form {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #555;
+}
+
+.toggle-form span {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toggle-form span:hover {
+  text-decoration: underline;
+}
+.error-message {
+  color: #D8000C; /* A standard red color for errors */
+  background-color: #FFD2D2;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+}

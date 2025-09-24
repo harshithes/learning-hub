@@ -1,0 +1,10 @@
+.course-detail {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.course-content {
+  margin-top: 2rem;
+  line-height: 1.6;
+}

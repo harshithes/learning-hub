@@ -1,0 +1,38 @@
+.quiz-container {
+  max-width: 800px;
+}
+
+.quiz-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.question-block {
+  margin-bottom: 2rem;
+}
+
+.question-block h3 {
+  margin-bottom: 1rem;
+}
+
+.option {
+  margin-bottom: 0.5rem;
+}
+
+.option input {
+  margin-right: 10px;
+}
+
+.submit-quiz-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+.quiz-message {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
