@@ -32,8 +32,8 @@ jobs:
       - name: Build & push frontend image
         uses: docker/build-push-action@v4
         with:
-          context: ./learning-hub
-          file: ./learning-hub/Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           tags: |
             ${{ env.REGISTRY }}/${{ env.REPO }}:latest
